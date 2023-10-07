@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "my gatsby blog",
+  "author": "yhk2079",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.8.1",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-sharp": "^5.8.1",
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.4"
+  }
+}
